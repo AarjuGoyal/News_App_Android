@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/navigationHome"
+        android:icon="@drawable/ic_home_white_18dp"
+        app:itemIconTint="@color/colorPurple"
+        android:title="Home" />
+
+    <item android:id="@+id/navigationHeadlines"
+        android:icon="@drawable/icon_news"
+        app:itemIconTint="@color/colorPurple"
+        android:title="Headlines"/>
+
+    <item android:id="@+id/navigationTrending"
+        android:icon="@drawable/ic_trending_up_white_18dp"
+        app:itemIconTint="@color/colorPurple"
+
+        android:title="Trending" />
+
+    <item android:id="@+id/navigationFavorites"
+        android:icon="@drawable/ic_bookmarks_white_18dp"
+        app:itemIconTint="@color/colorPurple"
+        android:title="Favorites" />
+
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Homework_9_news_app</string>
+
+    <string name="open_weather_maps_app_id">58fe1e8be7907f532d7ecce596a4ceca</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>

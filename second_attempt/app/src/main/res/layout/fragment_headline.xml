@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.aarjugoyal.homework_9_news_app.HeadlineFragment">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:tabMode="scrollable"
+            android:background="@color/colorWhite"
+            app:tabTextColor="@color/colorPurple">
+            <!--app:tabIndicatorColor="#601493"-->
+            <!---->
+            <!--app:tabSelectedTextColor="#601493"-->
+            <!--app:tabTextColor="@color/colorPurple"-->
+
+            <!--android:minHeight="?attr/actionBarSize"-->
+            <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabWorld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.NewsAccent"
+            android:text="World"
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business"
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabPolitics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Politics" />
+
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabTechnology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technology"
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science"
+           />
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+
+    </android.support.v4.view.ViewPager>
+
+
+
+
+
+</FrameLayout>
